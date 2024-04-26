@@ -61,7 +61,25 @@
 
     <!-- 新页面加载代码 -->
     <script>
-      window.location.href = "//your-new-page-url-here";
+      var urls = [
+        "https://treelingleaf.github.io/Embedded.doc/#/",
+        "https://treelingleaf.github.io/LinuxC.doc/#/",
+        "https://treelingleaf.github.io/data-structure/#/",
+        "https://treelingleaf.github.io/CPP.doc/#/",
+        // 添加更多的页面 URL
+      ];
+
+      function loadNextPage(index) {
+        if (index < urls.length) {
+          window.location.href = urls[index];
+          setTimeout(function () {
+            loadNextPage(index + 1);
+          }, 3000); // 设置加载下一页的延迟时间，单位为毫秒
+        }
+      }
+
+      // 开始加载第一个页面
+      loadNextPage(0);
     </script>
   </body>
 </html>

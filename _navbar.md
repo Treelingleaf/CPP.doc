@@ -1,3 +1,3 @@
 - [C 语言](https://treelingleaf.github.io/Embedded.doc/#/)
-- [Linux C 加强](https://treelingleaf.github.io/LinuxC.doc/#/?id)
+- [Linux C 加强](https://treelingleaf.github.io/LinuxC.doc/#/)
 - [算法与数据结构](https://treelingleaf.github.io/data-structure/#/)
